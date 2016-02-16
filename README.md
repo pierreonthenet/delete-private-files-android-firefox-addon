@@ -5,19 +5,18 @@ Add-on for Firefox for Android that allows you to delete files and folders in Fi
 This add-on was done in order to allow Firefox user to delete some files and folders in the "data" folder of Firefox for non-rooted Android devices.
 
 How to install :
-1/ download the 2 files "bootstrap.js" and "install.rdf" and move it in a specific folder ("delete-private-files"), you can also download this through the "Download" button on top of this page
-2/ make a ZIP of this folder (pay attention : the ZIP file MUST only contain this two files, and not its parent(s) folder(s))
-3/ change this ZIP file extension to XPI (delete-private-files.zip => delete-private-files.xpi)
-4/ copy this XPI file to your android device
-5/ open the XPI file with Firefox (let say you have the file in your sdcard folder, you can access this folder with Firefox at the URL file:///sdcard/, you can then click on the XPI file)
-6/ install the add-on
+1. download the 2 files "bootstrap.js" and "install.rdf" and move it in a specific folder ("delete-private-files"), you can also download this through the "Download" button on top of this page
+2. make a ZIP of this folder (pay attention : the ZIP file MUST only contain this two files, and not its parent(s) folder(s))
+3. change this ZIP file extension to XPI (delete-private-files.zip => delete-private-files.xpi)
+4. copy this XPI file to your android device
+5. open the XPI file with Firefox (let say you have the file in your sdcard folder, you can access this folder with Firefox at the URL file:///sdcard/, you can then click on the XPI file)
+6. install the add-on
 
 
 How to use :
-0/ install the add-on ;-)
-1/ go to file:///data/data/org.mozilla.firefox/files/mozilla/
-2/ navigate through the folders in order to find a folder or a file to delete
-3/ open the Firefox menu, click on "Delete file or folder" in Tools sub-menu
+1. go to file:///data/data/org.mozilla.firefox/files/mozilla/
+2. navigate through the folders in order to find a folder or a file to delete
+3. open the Firefox menu, click on "Delete file or folder" in Tools sub-menu
 
 /!\ WARNING /!\
 There is NO confirmation box !
